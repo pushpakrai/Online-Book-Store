@@ -1,0 +1,175 @@
+/* styles.css */
+
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1 {
+    color: #333;
+}
+
+/* Style for login and registration options */
+.login-option {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
+}
+
+.login-option:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Style for login form and registration form */
+.login-form {
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.login-form label {
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"],
+.login-form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.login-form input[type="submit"] {
+    background-color: #28a745; /* Green color for submit button */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.login-form input[type="submit"]:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Additional styles for the back button */
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #6c757d; /* Grey color for button */
+    color: #fff; /* White text color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #5a6268; /* Darker grey on hover */
+}
+
+/* Custom styles for admin panel */
+.navbar {
+    background-color: #343a40 !important; /* Dark grey navbar background */
+}
+
+.jumbotron {
+    background-color: #17a2b8; /* Blue background for jumbotron */
+    color: #fff; /* White text color */
+    padding: 2rem 1rem;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.card-link {
+    color: #fff; /* White text color */
+}
+
+/* Style for update button */
+.update-button {
+    background-color: #28a745; /* Green */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.update-button:hover {
+    background-color: #218838; /* Darker Green */
+}
+
+/* Style for delete button */
+.delete-button {
+    background-color: #dc3545; /* Red */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: #c82333; /* Darker Red */
+}
+
+/* Style for edit button */
+.edit-button {
+    background-color: #17a2b8; /* Blue */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.edit-button:hover {
+    background-color: #138496; /* Darker Blue */
+}
+
+/* Style for home button */
+.home-button {
+    background-color: #ffc107; /* Yellow */
+    color: black;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.home-button:hover {
+    background-color: #e0a800; /* Darker Yellow */
+}
